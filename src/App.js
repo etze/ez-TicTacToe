@@ -5,7 +5,7 @@ import Secondchapter from "./views/Secondchapter";
 function App() {
   return (
     <div className="App">
-      <Firstchapter />
+      {/* <Firstchapter /> */}
       <Secondchapter />
     </div>
   );

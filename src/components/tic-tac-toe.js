@@ -53,7 +53,7 @@ export default function TicTacToe() {
         break;
       }
     }
-  }, [state]);
+  }, [state, winnerArrays]);
   const boardEngine = item => {
     if (winner === undefined) {
       if (item.label === undefined) {
